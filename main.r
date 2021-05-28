@@ -18,6 +18,6 @@ x_test   <-  x[-c(0:n_train),]
 y_train  <-  y[c(0:n_train)]
 y_test   <-  y[-c(0:n_train)]
 
-# SVMRFE(x_train, y_train, CRITERIA)
-FScoreSelection(x_train, y_train, CRITERIA)
+SVMRFE(x_train, y_train, CRITERIA)
+# FScoreSelection(x_train, y_train, CRITERIA)
 # print(fscores)
